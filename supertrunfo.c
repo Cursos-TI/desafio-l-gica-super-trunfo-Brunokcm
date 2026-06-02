@@ -38,13 +38,13 @@ float PIB_per_capita2;
 printf("Carta 1: \n");
 
 printf("digite o estado(ex de A a H):\n");
-scanf("%c", estado1);
+scanf("%s", estado1);
 
 printf("digite o codigo(ex a01):\n");
-scanf("%c", codigo1);
+scanf("%s", codigo1);
 
 printf("digite a cidade:\n");
-scanf("%[^\n]s", cidade1);
+scanf(" %[^\n]s", cidade1);
 
 printf("digite a populacao:\n");
 scanf("%lu", &populacao1);
@@ -61,13 +61,13 @@ scanf("%d", &numero_de_pontos_turisticos1);
 printf("Carta 2: \n");
 
 printf("digite o estado(ex de A a H):\n");
-scanf("%c", estado2);
+scanf("%s", estado2);
 
 printf("digite o codigo(ex b01):\n");
-scanf("%c", codigo2);
+scanf("%s", codigo2);
 
 printf("digite a cidade:\n");
-scanf("%[^\n]s", cidade2);
+scanf(" %[^\n]s", cidade2);
 
 printf("digite a populacao:\n");
 scanf("%lu", &populacao2);
